@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Monami Sen</title>
+</head>
+<body>
+    <h1>Reach out to me!</h1>
+    <p><em>I can help you build your brand new website</em></p>
+    <!--em is for emphasis/ italics, suggsted to use em;
+    b/strong can be used for bold, suggsted to use strong-->
+    <hr>
+    <table border="1">
+        <thead>
+            <th></th>
+            <th>Contact</th>
+        </thead>
+        <!--The <thead> HTML element defines a set of rows defining the head of the columns of the table. 
+            Usually defined as bold when placed in the <thead>-->
+       <tbody>
+            <tr>
+                <td>Email</td>
+                <td><em><a href="mailto:monamihere@gmail.com">monamihere@gmail.com</a></em></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><a href="tel:91700314050">+91 7003145070</a></td>
+            </tr>
+        </tbody>
+        <!--The <tbody> HTML element encapsulates a set of table rows (<tr> elements)> table datas (<td> elements), 
+            indicating that they comprise the body of the table (<table>)-->
+        <tfoot>
+            <tr>
+                <td>Social Media</td>
+                <td><a href="https://www.linkedin.com/in/monami-sen-ba1754199/">LinkedIn</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><a href="">Facebook</a></td>
+            </tr>
+            <!--The <tfoot> HTML element defines a set of rows summarizing the columns of the table.-->
+        </tfoot>
+    </table>
+    <hr>
+    <h3>Contact Me</h3>
+    <form action="mailto:monamihere@gmail.com" method="post" enctype="text/plain">
+            <label>Your Name</label>
+            <input type="text" name="Name" id="">
+        <br>
+            <label>Your Email</label>
+            <input type="email" name="Email" id="">
+        <br>
+            <label>Phone no.</label>
+            <input type="tel" name="Phone" id="">
+        <br>
+            <label>Message</label>
+            <textarea name="YourMessage" id="" cols="30" rows="5"></textarea>
+        <br>
+            <label>Submit your file here</label>
+            <input type="file" name="file" id="">
+        <br>
+            <label>Choose your time</label>
+            <input type="date" name="date" id="">
+        <br>
+            <input type="checkbox" name="checkbox" id="">
+            <label>Please confirm that you agree to the Terns and Conditions.</label>
+        <br>
+            <input type="submit" value="Submit">
+    </form>
+    <!--The <form> HTML element represents interactive controls for submitting information.
+        The <label> HTML element represents a caption for an item in a user interface.
+        The <input> HTML element is used to add sheer number of combinations of input types and attributes.
+        Try text, email, tel, date, radio, checkbox, file etc-->
+</body>
+</html>
