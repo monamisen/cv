@@ -1,0 +1,56 @@
+/*********************************TAG SELECTORS************************************/
+body {
+    background-color:#F2F2F2;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    background-color:#F2F2F2;
+    border-top-color:#ebcaae;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1 {
+    color:#401201;
+    font-family: Montserrat;
+}
+
+h3 {
+    color:#734429;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+p {
+    color: #A67458;
+    font-family: Merriweather;
+    text-align: center;
+}
+
+table {
+    font-family: Merriweather;
+    text-align: center;
+    color: #A67458;
+}
+
+form {
+    font-family: Merriweather;
+    color: #A67458;
+}
+
+ul li {
+    font-family: Merriweather;
+    color: #A67458;
+}
+
+ol li {
+    font-family: Merriweather;
+    color: #A67458;
+}
+
+/*********************************CLASS SELECTORS************************************/
+.banner {
+    text-align: left;
+}
